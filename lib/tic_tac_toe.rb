@@ -65,7 +65,8 @@ class TicTacToe
         display_board
       end
     else 
-      puts "Give input again."
+      puts "Please choose a valid position."
+      new_num_p = gets
     end
 
   end
