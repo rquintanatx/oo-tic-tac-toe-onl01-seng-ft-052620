@@ -58,6 +58,9 @@ class TicTacToe
   def turn 
     puts ""
     num_p = gets
+    binding.pry
+    if num_p.to_i == 
+    
   end
   
   
