@@ -62,7 +62,7 @@ class TicTacToe
       puts "Error."  
     else 
       num_i = num_p.to_i 
-      
+    end 
     
     
     
