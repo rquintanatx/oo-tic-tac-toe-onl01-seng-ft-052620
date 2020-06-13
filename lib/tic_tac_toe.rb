@@ -58,11 +58,7 @@ class TicTacToe
   def turn 
     puts "Choose your position between 1-9!"
     num_p = gets
-    if num_p.to_i == 0 || num_p.to_i >= 10 
-      puts "Error."  
-    else 
-      num_i = num_p.to_i 
-    end 
+    input_to_index(num_p.to_i)
     
     
     
