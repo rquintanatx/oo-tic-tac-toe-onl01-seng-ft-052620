@@ -71,7 +71,7 @@ class TicTacToe
   end
   
   def won?
-    binding.pry
+   
   end 
   
 end 
