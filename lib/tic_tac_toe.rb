@@ -81,5 +81,9 @@ class TicTacToe
       false
   end 
   
+  def full?
+    @board.all? {|index| index != " " }
+  end 
+  
   
 end 
