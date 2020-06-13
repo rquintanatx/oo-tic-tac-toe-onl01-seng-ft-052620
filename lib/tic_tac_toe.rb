@@ -62,6 +62,7 @@ class TicTacToe
     if num_i != 0 && num_i <= 9 
       if valid_move?(num_i)
         move(input_to_index(num_i),current_player)
+        display_board
       end
     else 
       puts "Give input again."
