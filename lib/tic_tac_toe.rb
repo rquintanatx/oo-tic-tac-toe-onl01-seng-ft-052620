@@ -56,9 +56,14 @@ class TicTacToe
   end 
   
   def turn 
-    puts ""
+    puts "Choose your position between 1-9!"
     num_p = gets
-    binding.pry
+    if num_p.to_i == 0 || num_p.to_i >= 10 
+      puts "Error."  
+    else 
+      num_i = num_p.to_i 
+      
+    
     
     
   end
