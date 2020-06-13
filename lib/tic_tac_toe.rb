@@ -61,14 +61,13 @@ class TicTacToe
     num_i = num_p.to_i
     if num_i != 0 && num_i <= 9 
       if valid_move?(num_i)
+        current_player
         input_to_index(num_i)
       end
     else 
       puts "Give input again."
     end
-    
-    
-    
+
   end
   
   
