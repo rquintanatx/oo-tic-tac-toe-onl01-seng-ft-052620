@@ -55,4 +55,10 @@ class TicTacToe
     end 
   end 
   
+  def turn 
+    puts ""
+    num_p = gets
+  end
+  
+  
 end 
